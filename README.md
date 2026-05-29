@@ -45,7 +45,7 @@ The adapter takes in hidden states and outputs the predicted logits on the LLM v
 ### Paper Citation
 
 ```bibtex
-@misc{xu2026globalplan,
+@inproceedings{xu2026globalplan,
       title={How Far Ahead Do LLMs Plan? Uncovering the Latent Horizon in Chain-of-Thought Reasoning}, 
       author={Liyan Xu and Mo Yu and Fandong Meng and Jie Zhou},
       booktitle={Forty-third International Conference on Machine Learning},
