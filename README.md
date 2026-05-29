@@ -1,8 +1,15 @@
-# tele-lens
+# [ICML 2026] How Far Ahead Do LLMs Plan? Uncovering the Latent Horizon in Chain-of-Thought Reasoning
 
-This repository is for the paper:
+<p align="center">
+    <a href="https://arxiv.org/abs/2602.02103"><img src="https://img.shields.io/badge/arXiv-2602.02103-b31b1b.svg" alt="Paper"></a>
+    <a href="https://huggingface.co/lxucs/tele-lens-llm"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow" alt="Models"></a>
+    <a href="https://huggingface.co/datasets/lxucs/tele-lens"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-orange" alt="Datasets"></a>
+    <a href="https://icml.cc/"><img src="https://img.shields.io/badge/ICML-2026%20Poster-blue" alt="Conference"></a>
+</p>
 
-**[No Global Plan in Chain-of-Thought: Uncover the Latent Planning Horizon of LLMs](https://arxiv.org/abs/2602.02103)**
+This repository is for the **ICML 2026** paper:
+
+**[How Far Ahead Do LLMs Plan? Uncovering the Latent Horizon in Chain-of-Thought Reasoning](https://arxiv.org/abs/2602.02103)**
 
 In this paper, we uncovered a *myopic* latent planning horizon in LLMs' Chain-of-Thought (CoT), through our probing method **Tele-Lens**. We further underscore the significance of exploiting such CoT dynamics, with our proposed methods for estimation of both CoT uncertainty and necessity.
 
@@ -38,13 +45,11 @@ The adapter takes in hidden states and outputs the predicted logits on the LLM v
 ### Paper Citation
 
 ```bibtex
-@misc{xu2026globalplanchainofthoughtuncover,
-      title={No Global Plan in Chain-of-Thought: Uncover the Latent Planning Horizon of LLMs}, 
+@misc{xu2026globalplan,
+      title={How Far Ahead Do LLMs Plan? Uncovering the Latent Horizon in Chain-of-Thought Reasoning}, 
       author={Liyan Xu and Mo Yu and Fandong Meng and Jie Zhou},
+      booktitle={Forty-third International Conference on Machine Learning},
       year={2026},
-      eprint={2602.02103},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
       url={https://arxiv.org/abs/2602.02103}, 
 }
 ```
