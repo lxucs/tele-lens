@@ -11,16 +11,16 @@ This repository is for the **ICML 2026** paper:
 
 **[How Far Ahead Do LLMs Plan? Uncovering the Latent Horizon in Chain-of-Thought Reasoning](https://arxiv.org/abs/2602.02103)**
 
-In this paper, we uncovered a *myopic* latent planning horizon in LLMs' Chain-of-Thought (CoT), through our probing method **Tele-Lens**. We further underscore the significance of exploiting such CoT dynamics, with our proposed methods for estimation of both CoT uncertainty and necessity.
+In this paper, we uncovered a ***myopic* latent planning strength** in LLMs' Chain-of-Thought (CoT), through our probing method **Tele-Lens**. We further underscore the significance of exploiting such CoT dynamics, with our proposed methods for estimation of both CoT uncertainty and necessity.
 
 ### Data
 
-Our test set for probing is available at [Huggingface](https://huggingface.co/datasets/lxucs/tele-lens), spanning 12 tasks of diverse domains, which we categorize into three types.
-- Explicit Compositional Tasks: tasks requiring explicit multi-step procedures to resolve, e.g. algorithmic reasoning
-- Implicit Compositional Tasks: tasks requiring multiple reasoning steps but in a more nuanced and implicit manner, e.g. mathematical and logical reasoning
-- Semantics & Knowledge Tasks: tasks focusing on semantic understanding and knowledge-based reasoning, e.g. MMLU
+Our dataset for probing is available at [Huggingface](https://huggingface.co/datasets/lxucs/tele-lens), spanning 12 tasks of diverse domains, which we categorize into three types.
+- *Explicit Compositional Tasks*: requiring explicit multi-step procedures to resolve, e.g. algorithmic reasoning
+- *Implicit Compositional Tasks*: requiring multiple reasoning steps but in a more nuanced and implicit manner, e.g. mathematical and logical reasoning
+- *Semantics & Knowledge Tasks*: focusing on semantic understanding and knowledge-based reasoning, e.g. MMLU
 
-For each problem, a full response from both **Qwen3-32B** and our **In-Domain LLM** is also attached respectively.
+Details of the train/dev/test splits and the training process are described in the Huggingface [Dataset](https://huggingface.co/datasets/lxucs/tele-lens) page.
 
 ### In-Domain LLM
 
@@ -42,7 +42,7 @@ The adapter takes in hidden states and outputs the predicted logits on the LLM v
 
 *Please feel free to open an issue for any questions regarding the probing details or results.*
 
-### Paper Citation
+### Citation
 
 ```bibtex
 @inproceedings{xu2026globalplan,
