@@ -4,7 +4,7 @@
     <a href="https://arxiv.org/abs/2602.02103"><img src="https://img.shields.io/badge/arXiv-2602.02103-b31b1b.svg" alt="Paper"></a>
     <a href="https://huggingface.co/lxucs/tele-lens-llm"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow" alt="Models"></a>
     <a href="https://huggingface.co/datasets/lxucs/tele-lens"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-orange" alt="Datasets"></a>
-    <a href="https://icml.cc/"><img src="https://img.shields.io/badge/ICML-2026%20Poster-blue" alt="Conference"></a>
+    <a href="[https://icml.cc/](https://icml.cc/virtual/2026/poster/61496)"><img src="https://img.shields.io/badge/ICML-2026%20Poster-blue" alt="Conference"></a>
 </p>
 
 This repository is for the **ICML 2026** paper:
@@ -45,11 +45,12 @@ The adapter takes in hidden states and outputs the predicted logits on the LLM v
 ### Citation
 
 ```bibtex
-@inproceedings{xu2026globalplan,
-      title={How Far Ahead Do LLMs Plan? Uncovering the Latent Horizon in Chain-of-Thought Reasoning}, 
-      author={Liyan Xu and Mo Yu and Fandong Meng and Jie Zhou},
-      booktitle={Forty-third International Conference on Machine Learning},
-      year={2026},
-      url={https://arxiv.org/abs/2602.02103}, 
+@inproceedings{
+    xu2026how,
+    title={How Far Ahead Do {LLM}s Plan? Uncovering the Latent Horizon in Chain-of-Thought Reasoning},
+    author={Liyan Xu and Mo Yu and Fandong Meng and Jie Zhou},
+    booktitle={Forty-third International Conference on Machine Learning},
+    year={2026},
+    url={https://openreview.net/forum?id=pZqloVjqHd}
 }
 ```
