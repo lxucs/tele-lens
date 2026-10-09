@@ -4,12 +4,12 @@
     <a href="https://arxiv.org/abs/2602.02103"><img src="https://img.shields.io/badge/arXiv-2602.02103-b31b1b.svg" alt="Paper"></a>
     <a href="https://huggingface.co/lxucs/tele-lens-llm"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow" alt="Models"></a>
     <a href="https://huggingface.co/datasets/lxucs/tele-lens"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-orange" alt="Datasets"></a>
-    <a href="[https://icml.cc/](https://icml.cc/virtual/2026/poster/61496)"><img src="https://img.shields.io/badge/ICML-2026%20Poster-blue" alt="Conference"></a>
+    <a href="https://icml.cc/virtual/2026/poster/61496"><img src="https://img.shields.io/badge/ICML-2026%20Poster-blue" alt="Conference"></a>
 </p>
 
 This repository is for the **ICML 2026** paper:
 
-**[How Far Ahead Do LLMs Plan? Uncovering the Latent Horizon in Chain-of-Thought Reasoning](https://arxiv.org/abs/2602.02103)**
+**[How Far Ahead Do LLMs Plan? Uncovering the Latent Horizon in Chain-of-Thought Reasoning](https://openreview.net/pdf?id=pZqloVjqHd)**
 
 In this paper, we uncovered a ***myopic* latent planning strength** in LLMs' Chain-of-Thought (CoT), through our probing method **Tele-Lens**. We further underscore the significance of exploiting such CoT dynamics, with our proposed methods for estimation of both CoT uncertainty and necessity.
 
@@ -46,7 +46,7 @@ The adapter takes in hidden states and outputs the predicted logits on the LLM v
 
 ```bibtex
 @inproceedings{
-    xu2026how,
+    xu2026howfar,
     title={How Far Ahead Do {LLM}s Plan? Uncovering the Latent Horizon in Chain-of-Thought Reasoning},
     author={Liyan Xu and Mo Yu and Fandong Meng and Jie Zhou},
     booktitle={Forty-third International Conference on Machine Learning},
